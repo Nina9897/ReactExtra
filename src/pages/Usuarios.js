@@ -186,7 +186,7 @@ function Usuarios() {
     };
 
     const handleBack = () => {
-        navigate(-1); // Regresa a la página anterior
+        navigate('/dashboard'); // Regresa a la página anterior
     };
 
     // Función para manejar hover
@@ -220,7 +220,7 @@ function Usuarios() {
                         })}
                         onClick={handleBack}
                     >
-                        Regresar
+                        Inicio
                     </button>
                     <button
                         style={getButtonStyle(styles.secondaryButton, {

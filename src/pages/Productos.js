@@ -180,10 +180,9 @@ function Productos() {
     };
 
     const handleBack = () => {
-        navigate(-1); // Regresa a la página anterior
+        navigate('/dashboard');
     };
 
-    // Función para manejar hover (pseudo-clases no funcionan directamente en React)
     const handleMouseEnter = (e, hoverStyle) => {
         Object.keys(hoverStyle).forEach(prop => {
             e.target.style[prop] = hoverStyle[prop];
@@ -214,7 +213,7 @@ function Productos() {
                         })}
                         onClick={handleBack}
                     >
-                        Regresar
+                        Inicio
                     </button>
                     <button 
                         style={getButtonStyle(styles.secondaryButton, { 
