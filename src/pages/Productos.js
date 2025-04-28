@@ -241,7 +241,7 @@ function Productos() {
                 {products.map((product) => (
                     <div key={product.id} style={styles.productCard}>
                         <h3 style={styles.productTitle}>{product.name}</h3>
-                        <p style={styles.productInfo}>Categoría: {product.category}</p>
+                        <p style={styles.productInfo}>Descripción: {product.description}</p>
                         <p style={styles.productInfo}>Precio: ${product.price}</p>
                         <div style={styles.productActions}>
                             <button 
