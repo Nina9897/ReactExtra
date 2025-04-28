@@ -1,4 +1,4 @@
-const BASE_URL = "http://18.116.62.128/";
+const BASE_URL = "https://18.116.62.128/";
 
 export async function getAllUsers() {
     const response = await fetch(BASE_URL + 'users/');
